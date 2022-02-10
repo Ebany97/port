@@ -11,7 +11,12 @@ a {
 html, body {
     color: #333;
 }
-
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /******header******/
 header {
     height: 80px;
@@ -20,6 +25,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+    font-family: 'GmarketSansMedium';
 }
 header a {
     color: floralwhite;
@@ -57,6 +63,7 @@ padding: 120px 0;}
     margin-top: 20px;
     font-size: 22px;
     letter-spacing: 3px;
+    font-family: 'GmarketSansMedium';
 }
 /*********** 개인정보 */
 .profile {
@@ -65,6 +72,7 @@ padding: 120px 0;}
     margin: 150px auto;
     display: flex; 
     justify-content: space-between; 
+    font-family: 'GmarketSansMedium';
 }
 .profile .photo {
     width: 40%;
@@ -118,12 +126,14 @@ padding: 120px 0;}
     border-top: 1px solid #333;
     margin-top: 20px;
     padding-top: 10px;
+    font-family: 'GmarketSansMedium';
 } 
 .motion .info {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     align-items: flex-end;
+    font-family: 'GmarketSansMedium';
 }
 .motion .info video {
     width: 60%;
@@ -132,7 +142,8 @@ padding: 120px 0;}
 
     .motion .info .text {
         width: 35%;
-        word-break: break-all; /*글자 줄바꿈*/
+        word-break: break-all;
+        font-family: 'GmarketSansMedium'; /*글자 줄바꿈*/
     }
     .motion .info .text dl {
         display: flex;
@@ -177,9 +188,11 @@ padding: 120px 0;}
     h3 {
         font-size: 40px;
         margin-bottom: 20px;
+        font-family: 'GmarketSansMedium';
     }
     h4 {
         font-size: 30px;
+        font-family: 'GmarketSansMedium';
             }
     .btn {
         display: flex;
@@ -228,6 +241,7 @@ width: 140px;
     font-size: 18px;
     background: #fff;
     font-weight: bold;
+    font-family: 'GmarketSansMedium';
 
     /* Center slide text vertically */
     /* display: -webkit-box;
@@ -279,6 +293,7 @@ width: 140px;
             text-align: left;
             word-break: break-all;
             margin-top: 6%;
+            font-family: 'GmarketSansMedium';
         }
         .motion_slide .swiper-slide .info dl {
             display: flex;
@@ -288,6 +303,7 @@ width: 140px;
     
             width: 30%;
             font-weight: bold;
+            font-family: 'GmarketSansMedium';
         }
         .motion_slide .swiper-slide .info dl dd {
             width: 70%;
@@ -312,6 +328,7 @@ width: 140px;
   /* 영상리스트 youtueb list*/
   .youtube_list h3 {
 text-align: center;
+font-family: 'GmarketSansMedium';
   }
   .youtube_list .motion_cate ul {
       display: flex;
@@ -369,13 +386,16 @@ text-align: center;
   .youtube_list .swiper-slide .info {
       padding: 25px;
       text-align: left;
+      font-family: 'GmarketSansMedium';
   }
   .youtube_list .swiper-slide .info p {
       font-size: 14px;
+      font-family: 'GmarketSansMedium';
   }
   .youtube_list .swiper-slide .info h4 {
       font-size: 20px;
       margin-bottom: 30px;
+      font-family: 'GmarketSansMedium';
   }
   .youtube_list .swiper-slide .info dl {
       display: flex;
@@ -384,10 +404,12 @@ text-align: center;
   .youtube_list .swiper-slide .info dl dt {
       width: 30%;
       font-weight: bold;
+      font-family: 'GmarketSansMedium';
   }
   .youtube_list .swiper-slide .info dl dd {
       width: 70%;
       word-break: break-all;
+      font-family: 'GmarketSansMedium';
   }
   /******************2d 디자인********************/
   .g_design {
@@ -399,9 +421,11 @@ text-align: center;
       text-align: right;
       display: block;
       font-size: 13px;
+      font-family: 'GmarketSansMedium';
   }
   .g_design h3 {
       text-align: center;
+      font-family: 'GmarketSansMedium';
   }
   .g_design .img_list {
       display: flex;
@@ -424,10 +448,12 @@ text-align: center;
     font-size: 14px;
     color: #555;
     margin-bottom: 5px;
+    font-family: 'GmarketSansMedium';
   }
   .g_design .img_list ul li:nth-child(2) {
       font-size: 18px;
       font-weight: bold;
+      font-family: 'GmarketSansMedium';
   }
   /*****************footer***************/
   footer {
@@ -435,12 +461,14 @@ text-align: center;
       color: #fff;
       padding: 80px 0;
       text-align: center;
+      font-family: 'GmarketSansMedium';
   }
   footer a {
       color: #fff;
   }
   footer h3 {
       letter-spacing: 3px;
+      font-family: 'GmarketSansMedium';
   }
   footer ul {
 margin: 50px;
@@ -456,6 +484,7 @@ margin: 50px;
   footer p {
       font-size: 14px;
       color: rgba(255, 255, 255, .5);
+      font-family: 'GmarketSansMedium';
   }
 
   /* 반응형 제작 ************************************
@@ -520,8 +549,8 @@ margin: 50px;
 @media screen and (max-width: 640px) {
     :root  {--swiper-navigation-size: 24px;}
 
-    h3 {font-size: 30px;}
-    h4 {font-size: 24px;}
+    h3 {font-size: 30px;font-family: 'GmarketSansMedium';}
+    h4 {font-size: 24px;font-family: 'GmarketSansMedium';}
     .tit {display: none;}
 
     /* 메인비주얼 */
@@ -556,13 +585,13 @@ margin: 50px;
     
     /* 모션그래픽디자인 슬라이드 */
     .motion_slide {margin: 70px auto;}
-    .motion_slide .swiper-slide .info h4 {font-size: 24px; margin-bottom: 10px;}
+    .motion_slide .swiper-slide .info h4 {font-size: 24px; margin-bottom: 10px;font-family: 'GmarketSansMedium';}
  
 
     /* 유튜브리스트 */ 
     .youtube_list {padding:0;}
     .youtube_list .swiper-slide .info {padding: 15px;}
-    .youtube_list .swiper-slide .info dl {font-size: 16px;}
+    .youtube_list .swiper-slide .info dl {font-size: 16px;font-family: 'GmarketSansMedium';}
     /* 리스트 슬라이드 */
     .mySwiperyoutube .swiper-wrapper.on {
         flex-wrap: nowrap;
@@ -593,7 +622,7 @@ margin: 50px;
 
 
     /* 유튜브리스트 */
-    .youtube_list h3 {font-size: 25px;}
+    .youtube_list h3 {font-size: 25px;font-family: 'GmarketSansMedium';}
     
     .youtube_list .swiper-slide .info dl {flex-wrap: wrap;}
     .youtube_list .swiper-slide .info dl dt {width: 100%;}
@@ -601,6 +630,6 @@ margin: 50px;
 
     /* 그래픽디자인 */ 
     .img_list a ul {padding: 10px;}
-    .img_list a ul li:nth-child(2) {font-size: 17px;}
+    .img_list a ul li:nth-child(2) {font-size: 17px;font-family: 'GmarketSansMedium';}
     
 }
